@@ -1,0 +1,64 @@
+*{
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+ /* container */
+
+.contenitore{
+	width: 95vw;
+	height: 100vh;
+	margin: 0 auto;
+	position: relative;
+}
+
+/* end-container */
+
+
+/* start box-roma */
+
+
+.box-roma{
+	width:100%;
+	height: 100%;
+  background-image: url(img/roma.jpg);
+  background-position: center;
+  background-size: cover;
+  margin: 10px 10px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* end box-roma */
+
+
+/* start box-copenaghen */
+
+.box-copenaghen{
+	width:100%;
+	height: 100%;
+  background-image: url(img/copenaghen.jpg);
+  background-position: center;
+  background-size: cover;
+  margin: 10px 10px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+/* end box-copenaghen */
+
+
+/* start box-bangkok */
+
+.box-bangkok{
+	width:100%;
+	height: 100%;
+  background-image: url(img/bangkok.jpg);
+  background-position: center;
+  background-size: cover;
+  margin: 10px 10px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+/* end box-bangkok */
