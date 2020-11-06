@@ -1,0 +1,76 @@
+*{
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+/* HEADER */
+.title{
+	font-family: 'Syne Mono', monospace;
+	background-color:rgba(51, 51, 255, 0.5 );
+	font-size: 80px;
+	position: fixed;
+	transform: translate(-50%, -50%);
+	left:50%;
+	top: 8%;
+	border-radius: 20px;
+  z-index: 1001;
+	text-shadow: 2px 2px 1px #000000;
+
+}
+/* END HEADER */
+
+
+/* CONTAINER */
+.container{
+	width: 1000px;
+	height: 900px;
+	margin: 0 auto;
+	position: relative;
+	background-image: url(img/mondo.jpg);
+
+}
+
+/* END CONTAINER */
+
+/* SIDEBAR */
+.sidebar{
+	width: 200px;
+	position: relative;
+	top: 20vh;
+	left: 13vw;
+	position: fixed;
+	text-shadow:2px 2px 1px #000000;
+}
+
+.sidebar ul li{
+	padding: 20px;
+	font-weight: bold;
+	font-size: 40px;
+	font-family: 'Syne Mono', monospace;
+	background:#e6ffb3;
+	text-decoration: none;
+	border-radius: 20px;
+	display: inline-block;
+
+}
+/* END SIDEBAR */
+
+
+/* RIGHT CONTAINER */
+.right-container{
+	width: 500px;
+	position: relative;
+	left:500px ;
+	height:400px;
+	top: 130px;
+	background-image: url(img/mondo.jpg);
+	background-size: cover;
+	background-position: center;
+	display: none;
+}
+
+.container:hover .right-container{
+	display: block;
+}
+
+/* END RIGHT-CONTAINER */
